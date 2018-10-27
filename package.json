@@ -1,0 +1,22 @@
+{
+  "name": "explorer",
+  "version": "1.0.0",
+  "description": "Explorer of blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelgalicia/blockchain-explorer.git"
+  },
+  "author": "Axel Galicia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelgalicia/blockchain-explorer/issues"
+  },
+  "homepage": "https://github.com/axelgalicia/blockchain-explorer#readme",
+  "dependencies": {
+    "blockexplorer": "^1.0.1"
+  }
+}
