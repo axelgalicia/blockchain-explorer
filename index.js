@@ -14,4 +14,10 @@ const getBlock = (index) => {
     });
 }
 
-getBlock(1);
+(function theLoop (i) {
+    setTimeout(function () {
+        getBlock(i);
+        i++;
+        if (i < 3) theLoop(i);
+    }, 0);
+  })(0);
